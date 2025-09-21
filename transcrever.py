@@ -14,7 +14,7 @@ modelo = whisper.load_model("medium")
 
 # Aqui eu estou percorrendo os arquivos da pasta com os audios.
 for arquivo in os.listdir(PASTA_COM_OS_AUDIOS):
-    if arquivo.endswith(".ogg"):
+    if arquivo.endswith(".opus"):
         caminho_do_audio = os.path.join(PASTA_COM_OS_AUDIOS, arquivo)
         print(f"Transcrevendo {arquivo}...")
 
