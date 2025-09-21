@@ -1,0 +1,2 @@
+Esse arquivo deve ser apagado por você, ele serve apenas para as pastas de audios/saidas virem
+quando você fizer o clone do projeto.
